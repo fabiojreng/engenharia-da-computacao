@@ -1,0 +1,101 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[bottom = 2cm, right = 2cm, left = 3cm, top = 3cm]{geometry} %margens conforme a ABNT
+\usepackage[onehalfspacing]{setspace} %espaçamento de 1,5cm
+\usepackage{hyperref} %comando para referenciar clicável
+\usepackage{amsmath} %símbolos matemáticos
+%\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+%\usepackage{indentfirst}
+\usepackage[alf]{abntex2cite}
+\usepackage{graphicx}
+\usepackage{subfig}
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Large A Criação de uma Plataforma Online para Auxiliar Estudantes do IFMA na Locação de Imóveis na Cidade de Santa Inês - Ma.}
+   % Desenvolvimento de Site com Catálogos de Imóveis Para Alugar
+\end{center}
+
+\begin{center}
+Fábio da Silva Eloi Junior \footnotemark{}, Henrique Djordan Ferreira Chaves\footnotemark[\value{footnote}],   Jasmin Nunes de Sousa\footnotemark[\value{footnote}],  Jose Willians de Souza Nascimento\footnotemark[\value{footnote}],  Ytalo Bruno Lima Araújo\footnotemark[\value{footnote}] e Emanuel Cleyton Macedo Lemos\footnote[2]{Docente Efetivo do Instituto Federal de Educação, Ciência e Tecnologia do Maranhão (IFMA) - Campus Santa Inês. }.
+\end{center}
+
+\footnotetext{Instituto Federal de Educação, Ciência e Tecnologia do Maranhão (IFMA) - Campus Santa Inês.}
+
+\section *{Resumo}
+\indent \indent Diante da necessidade de alunos oriundos de outras cidades para encontrar um local em que possam residir na cidade de Santa Inês, buscou-se apresentar uma plataforma que tem o intuito de facilitar a procura de imóveis para o público alvo em questão. Deste modo, este trabalho apresenta um site que possa auxiliar o aluno em sua busca. O design do site foi produzido na plataforma online de edição de imagens Canva, em que o objetivo foi de apresentar as informações do site de forma intuitiva.
+
+
+\vspace{0.1in}
+
+\textbf{Palavras - Chave}: Acadêmicos. Página Eletrônica. Imóveis. Dificuldades de Moradia.
+
+%dificuldade. formação acadêmica. site. imóveis.
+%\cite{aluguel}.
+
+\section{Introdução}
+ 
+\indent \indent Grande parte das instituições federais de ensino são consideradas distintas, no aspecto de qualidade da educação e desempenho dos estudantes em sistemas avaliativos, como o SAEB para o ensino médio e o ENADE para o ensino superior, conforme descrito em \cite{soares}. Nesse contexto, estudantes provenientes de cidades vizinhas cresce a cada ano, devido a alta procura por vagas nessas instituições.
+
+No Instituto Federal de Educação, Ciência e Tecnologia do Maranhão - Campus Santa Inês, denota aos acadêmicos uma possibilidade viável para um ensino de qualidade. À vista disso, discentes de outras localidades buscam por imóveis na cidade de Santa Inês, em razão das condições financeiras e o translado diário à instituição de ensino. Sabendo disso, foi idealizado uma solução, que se baseia na criação de uma plataforma online para auxiliar na locação de imóveis, destinado, principalmente a alunos nessas circunstâncias. Um site exclusivo e seguro, que torna a procura de moradia fácil, rápida e cômoda.
+
+
+
+\section{Desenvolvimento}
+
+\indent 
+
+A implementação da resolução do problema (website), pode ser desenvolvida com a utilização da ferramenta ``WordPress”, que se trata de um sistema livre e aberto de gestão de conteúdo para internet, baseado em PHP com banco de dados MySQL, executado em um servidor interpretador, voltado principalmente para a criação de páginas eletrônicas e blogs online. Uma ferramenta reconhecida mundialmente para desenvolvimento de sites por conta de sua simplicidade, já que seu uso dispensa conhecimentos aprofundados em código, o que a torna essencial para a prototipação de projetos dos mais variados nichos \cite{wordpress}.
+
+As figuras (\ref{pagina_inicial}) (\ref{pagina_pesquisa}), respectivamente,  apresentam as funcionalidades e conteúdos da página inicial, de pesquisa e das informações do imóvel, em que, a página inicial apresenta os bairros sugeridos e os anúncios mais relevantes e a página de pesquisa mostra aos usuários os imóveis que estão na localidade pretendida. 
+
+\begin{figure}[!htb]
+
+    \subfloat[\label{pagina_inicial}{Página Inicial da Plataforma Online.}]{
+        \includegraphics[width=0.6\textwidth]{Figuras/Página Inicial.png}
+    }\hfill
+    \subfloat[\label{pagina_pesquisa} Página para Pesquisa de Imóveis.]{
+        \includegraphics[width=0.4\textwidth]{Figuras/Página de Pesquisa.png}
+    }
+    \caption{Acesso Inicial da Plataforma Online. (Fonte: Autores, 2022)}
+\end{figure}
+
+As figuras (\ref{cadastro_do_imovel})a(\ref{dados_do_imovel} apresentam como o cadastro do imóvel deve ser realizado, o locatário deve inserir as informações necessárias para que seja de fácil compreensão, e que tenha todos os contatos disponíveis. Já a página de informações, denota aos usuários os dados do anúncio desejado, ademais, a descrição detalhada do imóvel e a ficha de contato do locatário.
+
+\begin{figure}[!htb]
+
+    \subfloat[\label{cadastro_do_imovel} Página de Cadastro do Imóvel.]{
+        \includegraphics[width=0.5\textwidth]{Figuras/Anunciar.png}
+    }\hfill
+    \subfloat[\label{dados_do_imovel}{Dados do Imóvel Cadastrado.}]{
+        \includegraphics[width=0.5\textwidth]{Figuras/Informações de Imóvel.png}
+    }
+    \caption{Informações Necessárias para o Anúncio de Imóveis. (Fonte: Autores, 2022)}
+\end{figure}
+
+As figuras (\ref{cadastro_do_inquilino}),(\ref{cadastro_do_anunciante}, nesta ordem, exibem o como pode ser feito o login e cadastro do inquilino e do anunciante.
+
+\begin{figure}[!htb]
+
+    \subfloat[\label{cadastro_do_inquilino}{Login/Cadastro do Aluno/Inquilino.}]{
+        \includegraphics[width=0.5\textwidth]{Figuras/Login Aluno.png}
+    }\hfill
+    \subfloat[\label{cadastro_do_anunciante}Login/Cadastro do Anunciante/Locatário]{
+        \includegraphics[width=0.5\textwidth]{Figuras/Login Anunciante.png}
+    }
+    \caption{Cadastro do Estudante/Inquilino e do Anunciante na Plataforma Online. (Fonte: Autores, 2022)}
+\end{figure}
+
+\newpage
+
+\section{Conclusão}
+Dito isto, o empecilho apontado indica que há um público necessitando de inovação nesse segmento, no qual foi apresentado uma proposta de solução viável, podendo resolver o problema que muitos alunos acabam encontrando e que na prática tem a capacidade de ser eficiente para o público que o utilizar.
+
+\bibliography{ref.bib}
+
+\end{document}
+

@@ -1,0 +1,12 @@
+Regras Quiz:
+
+1 - questões valendo de 250 a 500 dependendo da complexidade estabecida.
+
+2 - se acertar a questão +5 vidas e o valor correspondente a questão. 
+    se errar  7 vidas e metade do valor da questão no saldo.
+
+3 - pode eliminar 3 alternativas, porém, a questão vale menos, onde cada alternativa tem valor igual e sua soma é igual ao valor da questão.
+
+4 - se a quantidade de vidas for menor que 1, o jogo acaba. Também acaba se não houver mais questões.
+
+

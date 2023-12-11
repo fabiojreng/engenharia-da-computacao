@@ -1,0 +1,74 @@
+octave:1> A = imread('arara.jpg');
+octave:2> imshow(A)
+
+
+
+octave:3> whos
+Variables visible from the current scope:
+
+variables in scope: top scope
+
+   Attr Name        Size                     Bytes  Class
+   ==== ====        ====                     =====  ===== 
+        A         418x236x3                 295944  uint8
+        ans         1x1                          8  double
+
+Total is 295945 elements using 295952 bytes
+
+octave:4> imshow( A(:, :, 1) );
+
+
+
+octave:5> R = imshow( A(:, :, 1) );
+
+
+
+octave:6> imshow( A(:, :, 2) );
+
+
+
+octave:7> G = imshow( A(:, :, 2) );
+
+
+
+octave:8> B = imshow( A(:, :, 3) );
+
+
+
+octave:9> G = rgb2hsv(A);
+octave:10> G = G(:, :, 3);
+octave:11> imshow(G);
+
+
+
+octave:12> m = ones(5,5)/9000;
+octave:13> G = rgb2gray(A);
+octave:14> G2 = conv2(G, m);
+octave:15> imshow(G2);
+
+
+
+
+
+
+m = {1 4 6 4 1
+     4 16 24 16 4
+     6 24 36 24 6
+     4 16 24 16 4
+     1 4 6 4 1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
