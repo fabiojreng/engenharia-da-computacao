@@ -6,12 +6,12 @@ int main(){
 	
 	scanf("%d", &d);
 	pd = &d;
-	printf("valor: %d-----------endereço: %p\n ------------- ponteiro: %p\n", d, &d, &pd);
+	printf("valor: %d-----------endereÃ§o: %p\n ------------- ponteiro: %p\n", d, &d, &pd);
 	ppd = &pd;
 	scanf("%d", &**ppd);
-	printf("valor: %d-----------endereço: %p\n------------- ponteiro: %p\n", d, ppd, &ppd);
+	printf("valor: %d-----------endereÃ§o: %p\n------------- ponteiro: %p\n", d, ppd, &ppd);
 
-	printf("\nValor final: %d ------------ endereço: %p\n", d, &d);
+	printf("\nValor final: %d ------------ endereÃ§o: %p\n", d, &d);
 	
 	
 	return 0;

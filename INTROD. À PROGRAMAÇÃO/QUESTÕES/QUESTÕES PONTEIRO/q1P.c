@@ -23,8 +23,8 @@ int main() {
 	
 	scanf("%c", &elemento);
 	
-	preencheVetor(&vetor[0], elemento);//Primeira função - cada endereço do vetor terá o conteúdo modificado 
-	imprimeVetor(vetor);//Segunda função - imprimir os valores das alterações
+	preencheVetor(&vetor[0], elemento);//Primeira funÃ§Ã£o - cada endereÃ§o do vetor terÃ¡ o conteÃºdo modificado 
+	imprimeVetor(vetor);//Segunda funÃ§Ã£o - imprimir os valores das alteraÃ§Ãµes
 	
 	
 	return 0;
