@@ -47,5 +47,4 @@ public class Funcionario extends Conta{
         this.cpf = cpf;
     }
     
-    
 }

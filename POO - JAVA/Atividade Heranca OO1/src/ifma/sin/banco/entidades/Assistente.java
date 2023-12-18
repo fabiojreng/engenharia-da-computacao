@@ -20,5 +20,4 @@ public class Assistente extends Funcionario{
         return matricula;
     }
  
-    
 }
