@@ -1,3 +1,5 @@
+# Escreva um programa em assembly, para trocar o conteúdo de dois registradores $t0 e $t2. Você não pode usar outros registradores.
+
 .data
 	msg1: .asciiz "Digite o primeiro valor: "
 	msg2: .asciiz "Digite o segundo valor: "

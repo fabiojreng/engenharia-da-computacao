@@ -1,3 +1,7 @@
+# Escreva um programa em linguagem de montagem do MIPS que receba dois números inteiros armazenados na memória e realiza 
+# a multiplicação dos dois números. Considere números positivos e negativos. A instrução mult não deverá ser utilizada na 
+# implementação dessa questão.
+
 .data 
 	numero1: .word -3
 	numero2: .word 2
