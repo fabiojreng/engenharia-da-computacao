@@ -20,5 +20,4 @@ public class Tecnico extends Assistente{
         this.salario = salario;
     }
     
-    
 }

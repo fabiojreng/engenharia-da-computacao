@@ -29,6 +29,5 @@ public class Gerente extends Funcionario{
     public void setNivelGerencia(int nivelGerencia) {
         this.nivelGerencia = nivelGerencia;
     }
-    
-    
+     
 }
